@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">妙管家APP</string>
+
+
+    <!-- Function Page Title -->
+    <string name="func_set">設定</string>
+    <string name="func_add">新增物品</string>
+    <string name="func_edit">修改物品</string>
+
+
+    <string name="add">新增</string>
+    <string name="edit">修改</string>
+    <string name="delete">刪除</string>
+
+    <!-- func_set & setting list -->
+    <string-array name="setName">
+        <item name="type">種類設定</item>
+        <item name="unit">單位設定</item>
+        <item name="other">其他設定</item>
+    </string-array>
+
+</resources>

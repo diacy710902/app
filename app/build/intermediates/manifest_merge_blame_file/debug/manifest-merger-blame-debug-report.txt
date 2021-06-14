@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /Users/annie/.gradle/caches/transforms-2/files-2.1/2035b8ef85a6eac2fc4525b65dd8dd0d/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.MyApplication4" >
+21-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:11:9-52
+22        <activity android:name="com.example.myapplication4.Setting" />
+22-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:12:9-54
+22-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:12:19-42
+23        <activity android:name="com.example.myapplication4.ItemEdit" />
+23-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:13:9-46
+23-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:13:19-43
+24        <activity android:name="com.example.myapplication4.ItemAdd" />
+24-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:14:9-45
+24-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:14:19-42
+25        <activity android:name="com.example.myapplication4.SetOther" />
+25-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:15:9-46
+25-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:15:19-43
+26        <activity android:name="com.example.myapplication4.SetUnit" />
+26-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:16:9-45
+26-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:16:19-42
+27        <activity android:name="com.example.myapplication4.SetType" />
+27-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:17:9-45
+27-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:17:19-42
+28        <activity android:name="com.example.myapplication4.MainActivity" >
+28-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:18:9-24:20
+28-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:18:19-47
+29            <intent-filter>
+29-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:20:17-69
+30-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:22:17-77
+32-->/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
