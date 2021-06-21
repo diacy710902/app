@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -16,40 +12,8 @@
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_set_type.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_set_type.xml"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_item_add.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_item_add.xml"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_set_unit.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_set_unit.xml"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_setting.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_setting.xml"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -68,10 +32,6 @@
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_set_other.xml.flat",
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_set_other.xml"
     },
@@ -82,5 +42,57 @@
     {
         "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_item_edit.xml.flat",
         "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_item_edit.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_set_type.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_set_type.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_item_add.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_item_add.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_banner.png.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xhdpi/ic_banner.png"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_set_unit.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_set_unit.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_setting.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/drawable_ic_banner_foreground.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_banner_foreground.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/annie/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_banner.xml.flat",
+        "source": "/Users/annie/AndroidStudioProjects/MyApplication4/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml"
     }
 ]

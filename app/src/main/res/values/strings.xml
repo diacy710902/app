@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">妙管家APP</string>
+    <string name="selected_item">Selected item:</string>
 
 
     <!-- Function Page Title -->
@@ -11,6 +12,15 @@
     <string name="add">新增</string>
     <string name="edit">修改</string>
     <string name="delete">刪除</string>
+
+    <string-array name="Location">
+        <item>客廳</item>
+        <item>廚房</item>
+        <item>衣櫥</item>
+        <item>臥室</item>
+        <item>書房</item>
+        <item>冰箱</item>
+    </string-array>
 
     <!-- func_set & setting list -->
     <string-array name="setName">

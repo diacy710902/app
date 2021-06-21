@@ -1,9 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:label="@string/app_name"
+    android:orientation="vertical"
     tools:context=".ItemAdd">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#C6C6C6"
+        tools:srcCompat="@drawable/ic_banner_foreground" />
+
+    <Button
+        android:id="@+id/button_saveImg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/purple_dark"
+        android:layout_below="@id/imageView"
+        android:text="保存圖片"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvItemname"
+        tools:ignore="OnClick" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvItemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_saveImg"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/White"
+        android:layout_marginTop="20dp"
+        android:hint="物品名稱"
+        android:textColor="@color/purple_dark"
+        app:hintTextColor="@color/purple_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+        <EditText
+            android:id="@+id/edItemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:textColor="@color/Black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvItemname"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="16dp"
+        android:text="放置地點:"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvItemname"
+        android:layout_toRightOf="@id/txtLocation"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white_light"
+        android:paddingVertical="10dp"
+        android:paddingLeft="16dp"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/txtLocation"
+        android:paddingLeft="16dp"
+        android:text="數量"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/purple_dark"
+        android:layout_below="@id/txtLocation"
+        android:layout_toRightOf="@+id/txtNum"
+        android:layout_marginStart="15dp"
+        android:padding="0dp"
+        android:text=" - "
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/ItemNumber"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLocation"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toRightOf="@+id/button_minus"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:text="1" android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/purple_dark"
+        android:layout_below="@id/txtLocation"
+        android:layout_toRightOf="@+id/ItemNumber"
+        android:layout_marginStart="5dp"
+        android:padding="0dp"
+        android:text=" + "
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        tools:ignore="OnClick" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNum"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/White"
+        android:hint="備註"
+        android:textColor="@color/purple_dark"
+        app:hintTextColor="@color/purple_dark"
+        >
+
+        <EditText
+            android:id="@+id/edRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNum"
+            android:background="@color/White"
+            android:textColor="@color/Black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_saveItem"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvRemark"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/purple_dark"
+        android:text="保存"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
